@@ -25,6 +25,14 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/net.bytebuddy/byte-buddy -->
+    <dependency>
+      <groupId>net.bytebuddy</groupId>
+      <artifactId>byte-buddy</artifactId>
+      <version>1.11.1</version>
+    </dependency>
+
   </dependencies>
 
   <build>
@@ -67,6 +75,7 @@
               </rules>
             </configuration>
           </execution>
+
         </executions>
       </plugin>
     </plugins>
